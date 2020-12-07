@@ -1,0 +1,82 @@
+/* * {
+  border: 1px red solid;
+} */
+
+/* Reset */
+
+body {
+  margin: 0;
+}
+
+/* styling and boxes */
+
+.Navbar-covid {
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Navbar-covid a {
+  color: #222222;
+  text-decoration: none;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+
+.Navbar {
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #05242b;
+  color: white;
+}
+
+.Navbar-left {
+  display: flex;
+  align-items: center;
+  width: 20vw;
+}
+
+.Navbar-left svg {
+  background-color: #05242b;
+  /* width: 3rem;
+  height: 80%; */
+  margin-left: 1.5rem;
+}
+
+.Navbar-right {
+  width: 80vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Navbar-right a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+.Navbar-right i {
+  margin-left: 1.5rem;
+}
+
+.Navbar-right-user {
+  background-color: white;
+  width: 10%;
+  height: 60%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  color: #717171;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 21px;
+}
+
+.Navbar-right-user i {
+  margin-left: 1rem;
+}
